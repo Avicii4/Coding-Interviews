@@ -15,9 +15,10 @@ public class GetFibonacci {
     public int getFibonacci_2(int n) {
         int f = 0;
         int g = 1;
-        while (n--) {
+        while (n > 0) {
             g += f;
             f = g - f;
+            n--;
         }
         return f;
     }
