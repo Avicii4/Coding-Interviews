@@ -22,7 +22,7 @@ public class DeleteDuplication {
                 last = last.next;
             }
         }
-        return pHead;
+        return p.next;
     }
 
     public static void main(String[] args) {
